@@ -12,6 +12,7 @@
     - Integer
     - ParseInt( BufferReader 의 원리와 그 응용)
     - outer break
+    - trim
     Last Reviewed: 2025-08-28
 */
 
