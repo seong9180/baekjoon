@@ -1,6 +1,6 @@
 /*
     BOJ 3040 백설 공주와 일곱 난쟁이
-    Status: v1
+    Status: v2
     Key:
     Notes:
     Last Reviewed: 2025-08-29
@@ -9,8 +9,7 @@
 package BOJ.BruteForce;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class P3040 {
     public static void main(String[] args) throws Exception {
@@ -19,11 +18,8 @@ public class P3040 {
         int[] gnome = new int[9];
         int sum = 0;
         for (int i = 0; i < 9; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            gnome[i] = Integer.parseInt(st.nextToken());
-        }
-        //9명의 숫자 전부 합 구함
-        for (int i = 0; i < 9; i++) {
+            gnome[i] = Integer.parseInt(br.readLine());
+            //9명의 숫자 전부 합 구함
             sum += gnome[i];
         }
         //System.out.println("sum = " + sum);
