@@ -17,7 +17,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws Exception {
         //input.txt 파일을 직접 입력 스트림으로 연결
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("/Users/seungmin/Desktop/김승민/algorithm/ps/src/SWEA/D2/P1859/input.txt")));
+        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("ps/src/SWEA/D2/P1859/input.txt")));
 
         // TODO: solve
         int t = Integer.parseInt(br.readLine());
