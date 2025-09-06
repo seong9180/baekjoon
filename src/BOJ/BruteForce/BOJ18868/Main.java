@@ -3,7 +3,7 @@
     Status: v1
     Key:
     Notes:
-    Last Reviewed: 2025-09-05
+    c
 */
 package BOJ.BruteForce.BOJ18868;
 

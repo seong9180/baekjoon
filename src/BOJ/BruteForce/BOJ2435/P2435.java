@@ -3,7 +3,7 @@
     Status: v1  /
     Key:
     Notes:
-    Last Reviewed: 2025-08-21
+
 */
 
 package BOJ.BruteForce.BOJ2435;
